@@ -1,0 +1,79 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* common styles */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: 88ee8e;
+}
+
+/* header */
+.c-nav {
+  padding: 30px 0;
+}
+.menu li a {
+  padding-right: 30px !important;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #8e8e8e;
+}
+.menu li a:hover {
+  font-weight: 700;
+  color: #333333;
+}
+.c-dr-menu[data-bs-popper] {
+  top: 100%;
+  left: -159px;
+  padding-left: 15px;
+}
+.btn-search {
+  border: none;
+}
+.btn-search:hover {
+  color: #ffffff;
+  background-color: #8e8e8e;
+}
+
+/* banner styles */
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* TODO */
+  /* min-height: 700px; */
+}
+.slider-content {
+  margin: 200px 0;
+}
+.slider-content h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.slider-content p {
+  padding: 50px 117px 55px 0;
+  color: #ffffff;
+}
+.c-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #ffffff;
+  border: none;
+}
+.c-btn:hover {
+  color: #ffffff;
+  background-color: #8e8e8e;
+}
+.btn-learnMore {
+  padding: 15px 25px;
+}

@@ -1,20 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- meta data -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nipro</title>
     <!-- css link -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-<body>
-    <h1>Hello World</h1>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/a83ff459e4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid c-nav">
+          <a class="navbar-brand" href="index.html">
+            <img class="img-fluid" src="images/logo.png" alt="Nipro" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-supported-content"
+            aria-controls="navbar-supported-content"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- menu -->
+          <div
+            class="collapse navbar-collapse menu"
+            id="navbar-supported-content"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <!-- Search button -->
+            <div class="btn-group">
+              <button
+                class="btn btn-search"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="true"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <input
+                type="search"
+                placeholder="Search"
+                class="dropdown-menu c-dr-menu ps-3"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- banner start -->
+    <section class="banner">
+      <div class="container">
+        <div id="carousel-example" class="carousel slide">
+          <!-- inner part -->
+          <div class="carousel-inner">
+            <!-- slider start -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-xxl-7 col-lg-8">
+                  <div class="slider-content">
+                    <h1 class="mb-0">We Have Talented Team</h1>
+                    <p class="mb-0">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. hello Lorem Ipsum has been the
+                      industry's stanard dummy text ever since the hello
+                      bossLorem Ipsum is simply dummy text of the printing
+                    </p>
+                    <button type="button" class="c-btn btn-learnMore">
+                      Learn More
+                      <i class="fa-solid fa-arrow-right ps-3"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slider end -->
+          </div>
+          <!-- controls button -->
+          <p
+            type="button"
+            class="d-inline mb-0"
+            data-bs-target="#carousel-example"
+            data-bs-slide="prev"
+          >
+            PREV
+          </p>
+          <span class="opacity-50">|</span>
+          <span class="fw-bold">|</span>
+          <span class="opacity-50">|</span>
+          <p
+            type="button"
+            class="d-inline mb-0"
+            data-bs-target="#carousel-example"
+            data-bs-slide="next"
+          >
+            NEXT
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
 
     <!-- js script -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
