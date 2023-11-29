@@ -32,6 +32,9 @@
   .vertical-line {
     height: 40px;
   }
+  .content-title {
+    font-size: 25px;
+  }
   .title-spacing {
     padding: 30px 0;
   }
@@ -51,12 +54,60 @@
     padding-bottom: 80px;
     text-align: center;
   }
-  .about img{
+  .about img {
     padding: 0 0 30px;
   }
-  .p-text-1{
+  .p-text-1 {
     padding: 30px 0 15px;
-}
+  }
+
+  /* choose nipro styles */
+  .choose-card {
+    padding: 50px 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .t-p-top {
+    padding-top: 15px;
+  }
+
+  /* work with */
+  .person-photo {
+    padding: 50px 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .social-link {
+    margin: 40px 250px 0 0;
+  }
+
+  /* pricing style */
+  .pricing {
+    padding: 50px 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pricing-card {
+    padding: 0 47px 0;
+  }
+  .pricing-card p {
+    padding: 30px 0 20px 0;
+  }
+  .pricing ul li {
+    padding-bottom: 15px;
+  }
+  .pricing-card h6 {
+    left: 37px;
+  }
+  .btn-signUp {
+    margin: 0 0 30px 0;
+  }
+
+  /* html template style */
+  .html-template {
+    margin: 0 0 50px 0;
+    text-align: center;
+  }
+  .btn-buyNow{
+    margin-top: 15px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -112,8 +163,52 @@
     padding-bottom: 80px;
     text-align: center;
   }
-  .about img{
+  .about img {
     padding: 0 0 30px;
+  }
+
+  /* choose nipro styles */
+  .choose-card {
+    padding: 60px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* work with */
+  .person-photo {
+    padding: 50px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social-link {
+    margin: 40px 196px 0 0;
+  }
+
+  /* pricing style */
+  .pricing {
+    padding: 50px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing-card {
+    padding: 0 21px 0;
+  }
+  .pricing-card p {
+    padding: 30px 0 20px 0;
+  }
+  .pricing ul li {
+    padding-bottom: 15px;
+  }
+  .pricing-card h6 {
+    left: 11px;
+  }
+  .btn-signUp {
+    margin: 0 0 30px 0;
+  }
+
+  /* html template style */
+  .html-template {
+    margin: 0 0 50px 0;
+  }
+  .btn-buyNow {
+    padding: 10px 25px;
   }
 }
 
@@ -161,8 +256,40 @@
     padding-bottom: 100px;
     text-align: center;
   }
-  .about img{
+  .about img {
     padding: 0 50px 30px;
+  }
+
+  /* choose nipro styles */
+  .choose-card {
+    padding: 80px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* work with */
+  .person-photo {
+    padding: 80px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social-link {
+    margin: 95px 287px 0 0;
+  }
+
+  /* pricing style */
+  .pricing {
+    padding: 80px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing-card {
+    padding: 0 60px 0;
+  }
+  .pricing-card h6 {
+    left: 50px;
+  }
+
+  /* html template style */
+  .html-template {
+    margin: 0 0 80px 0;
   }
 }
 
@@ -191,6 +318,34 @@
   .btn-learnMoreAbout {
     padding: 5px 10px;
   }
+
+  /* work with */
+  .designation {
+    padding: 15px 0 15px 5px;
+  }
+  .social-link {
+    margin: 22px 165px 0 0;
+  }
+
+  /* work with */
+  .social-link {
+    margin: 60px 210px 0 0;
+  }
+
+  /* pricing */
+  .pricing-card {
+    padding: 0 15px 0;
+  }
+  .pricing-card p {
+    padding: 35px 0 25px 0;
+  }
+  .btn-signUp {
+    margin: 0 0 35px 0px;
+    padding: 15px 40px;
+  }
+  .pricing-card h6 {
+    left: 5px;
+  }
 }
 /* Extra Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -198,6 +353,22 @@
   .n-card i {
     top: -22px;
     left: 93px;
+  }
+
+  /* work with */
+  .social-link {
+    margin: 60px 210px 0 0;
+  }
+
+  /* pricing */
+  .pricing-card {
+    padding: 0 37px 0;
+  }
+  .btn-signUp {
+    padding: 15px 40px;
+  }
+  .pricing-card h6 {
+    left: 27px;
   }
 }
 

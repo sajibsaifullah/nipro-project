@@ -22,3 +22,6 @@ w-nipro
     p bt        120             100             70
     card bt     100             80              50
     about pb    120             100
+
+c-nipro
+    py          100             80              60/50

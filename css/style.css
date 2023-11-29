@@ -68,7 +68,6 @@ body {
   text-transform: uppercase;
   color: #333333;
   background-color: #ffffff;
-  
 }
 .btn-learnMore {
   padding: 15px 25px;
@@ -123,10 +122,10 @@ body {
   left: 117px;
 }
 .n-card h2 {
-  text-transform: uppercase;
   font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 700;
+  text-transform: uppercase;
   color: #333333;
 }
 .btn-more {
@@ -138,22 +137,179 @@ body {
 .n-card:hover {
   border: 2px solid #333333;
 }
-.n-card:hover i {
-  color: #333333;
-}
+.n-card:hover i,
 .n-card:hover button {
   color: #333333;
 }
+/* .n-card:hover button {
+  color: #333333;
+} */
 
-.about{
-    padding-bottom: 120px;
+.about {
+  padding-bottom: 120px;
 }
-.p-text-1{
-    padding: 30px 0;
+.p-text-1 {
+  padding: 30px 0;
 }
-.p-text-2{
-    padding-bottom: 40px;
+.p-text-2 {
+  padding-bottom: 40px;
 }
-.btn-learnMoreAbout{
-    padding: 10px 20px;
+.btn-learnMoreAbout {
+  padding: 10px 20px;
+}
+.btn-learnMoreAbout:hover {
+  color: #ffffff;
+  background-color: #8e8e8e;
+  border: 2px solid #8e8e8e;
+}
+
+/* recent work styles */
+.r-work {
+  background-color: #f8f8f8;
+}
+
+/* choose nipro styles */
+.t-p-top {
+  padding-top: 30px;
+}
+.choose-card {
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.s-card {
+  border-bottom: 2px solid #8e8e8e;
+}
+.s-card i {
+  font-size: 48px;
+}
+.s-card h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #8e8e8e;
+}
+.s-card p {
+  padding: 35px 0;
+}
+.s-card:hover {
+  border-bottom: 2px solid #333333;
+}
+.s-card:hover i,
+.s-card:hover h5 {
+  color: #333333;
+}
+
+/* work with styles */
+.work-with {
+  background-image: url("../images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* todo */
+  /* height: 650px; */
+}
+.person-photo {
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.designation {
+  /* padding: 15px 45px; */
+  padding: 15px 0 15px 30px;
+  background-color: #ffffff;
+}
+.designation h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+}
+.social-link {
+  margin: 95px 255px 0 0;
+}
+.social-link i {
+  font-size: 30px;
+  color: #333333;
+  background-color: #ffffff;
+}
+.social-link i {
+  display: none;
+}
+.person:hover i {
+  display: block;
+}
+
+/* pricing style */
+.pricing {
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.pricing-card {
+  padding: 0 50px 0;
+  border: 2px solid #8e8e8e;
+  position: relative;
+}
+.pricing-card h6 {
+  padding: 0 10px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #333333;
+  background-color: #ffffff;
+  position: absolute;
+  top: -10px;
+  left: 40px;
+}
+.pricing ul li {
+  list-style: none;
+  padding-bottom: 25px;
+}
+.pricing-card p {
+  padding: 50px 0 40px 0;
+}
+.pricing-card p span {
+  /* padding: 0 0 0 30px; */
+  font-size: 36px;
+  color: #333333;
+}
+.btn-signUp {
+  margin: 0 0 40px 0px;
+  padding: 15px 50px;
+  color: #8e8e8e;
+  border: 2px solid #8e8e8e;
+}
+.btn-signUp:hover {
+  color: #ffffff;
+  background-color: #8e8e8e;
+}
+.pricing-card:hover {
+  border: 2px solid #333333;
+}
+.pricing-card:hover button {
+  color: #333333;
+  border: 2px solid #333333;
+}
+
+/* html template style */
+.html-template {
+  margin: 0 0 100px 0;
+  padding: 30px 0;
+  background-color: #f8f8f8;
+}
+.html-template p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #333333;
+}
+.btn-buyNow{
+  padding: 10px 40px;
+}
+.btn-buyNow:hover {
+  color: #ffffff;
+  background-color: #8e8e8e;
 }
