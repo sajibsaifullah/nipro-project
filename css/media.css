@@ -105,8 +105,35 @@
     margin: 0 0 50px 0;
     text-align: center;
   }
-  .btn-buyNow{
+  .btn-buyNow {
     margin-top: 15px;
+  }
+
+  /* employee */
+  .emp-identity {
+    padding: 30px 10px;
+    text-align: center;
+  }
+  .emp-identity img {
+    margin-bottom: 20px;
+  }
+  .b-next-prev {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .c-prev {
+    padding-right: 50px;
+  }
+  .c-next {
+    padding-left: 50px;
+  }
+
+   /* contact */
+   .contact {
+    padding: 30px 20px 30px;
+  }
+  .contact h2 {
+    left: 60px;
   }
 }
 
@@ -210,6 +237,32 @@
   .btn-buyNow {
     padding: 10px 25px;
   }
+
+  /* employee */
+  .emp-identity {
+    text-align: center;
+  }
+  .emp-identity img {
+    margin-bottom: 20px;
+  }
+  .b-next-prev {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .c-prev {
+    padding-right: 100px;
+  }
+  .c-next {
+    padding-left: 100px;
+  }
+
+  /* contact */
+  .contact {
+    padding: 50px 50px 30px;
+  }
+  .contact h2 {
+    left: 165px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -291,6 +344,32 @@
   .html-template {
     margin: 0 0 80px 0;
   }
+
+  /* employee */
+  .emp-identity {
+    text-align: center;
+  }
+  .emp-identity img {
+    margin-bottom: 20px;
+  }
+  .b-next-prev {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .c-prev {
+    padding-right: 100px;
+  }
+  .c-next {
+    padding-left: 100px;
+  }
+
+  /* contact */
+  .contact {
+    padding: 80px 100px 30px;
+  }
+  .contact h2 {
+    left: 250px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -346,6 +425,19 @@
   .pricing-card h6 {
     left: 5px;
   }
+
+  /* employee style */
+  .control-button {
+    writing-mode: vertical-rl;
+  }
+
+  /* contact */
+  .contact {
+    padding: 100px 150px 30px;
+  }
+  .contact h2 {
+    left: 370px;
+  }
 }
 /* Extra Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -370,8 +462,22 @@
   .pricing-card h6 {
     left: 27px;
   }
+
+  /* employee style */
+  .control-button {
+    writing-mode: vertical-rl;
+  }
+
+  /* contact */
+  .contact h2 {
+    left: 450px;
+  }
 }
 
 /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  /* employee style */
+  .control-button {
+    writing-mode: vertical-rl;
+  }
 }
