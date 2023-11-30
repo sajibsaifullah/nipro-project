@@ -167,6 +167,54 @@ body {
 .r-work {
   background-color: #f8f8f8;
 }
+.tab {
+  padding: 100px 0;
+}
+.t-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+.t-name:hover{
+  color: #8e8e8e;
+}
+.tab-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.t-image {
+  position: relative;
+}
+.t-icon {
+  display: none;
+  font-size: 60px;
+  color: #333333;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* transition: .3s linear; */
+}
+.t-text {
+  display: none;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #ffffff;
+  color: #333333;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* transition: .3s linear; */
+}
+.t-image:hover img {
+  opacity: 25%;
+}
+.t-image:hover .t-text,
+.t-image:hover .t-icon {
+  display: block;
+}
 
 /* choose nipro styles */
 .t-p-top {
