@@ -234,7 +234,7 @@ body {
 .social-link i {
   font-size: 30px;
   color: #333333;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 .social-link i {
   display: none;
@@ -369,4 +369,48 @@ textarea {
 .btn-sendNow:hover {
   color: #ffffff;
   background-color: #8e8e8e;
+}
+
+/* footer styles */
+footer {
+  background-image: url("../images/bg-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* todo */
+  /* height: 458px; */
+}
+.footer-top {
+  padding-bottom: 100px;
+}
+.ft-top-text {
+  padding: 40px 130px;
+  color: #ffffff;
+}
+.ft-social-icon {
+  font-size: 30px;
+  color: #ffffff;
+}
+.ft-social-icon i:hover {
+  cursor: pointer;
+  color: #8e8e8e;
+}
+.footer-bottom hr {
+  margin: 0;
+  border: 1px solid #f8f8f8;
+}
+.footer-bottom-text {
+  padding: 40px 0;
+}
+.footer-bottom-text p {
+  color: #ffffff;
+}
+.footer-bottom-text p a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-bottom-text ul li a {
+  text-decoration: none;
+  color: #ffffff;
 }

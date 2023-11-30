@@ -128,12 +128,29 @@
     padding-left: 50px;
   }
 
-   /* contact */
-   .contact {
+  /* contact */
+  .contact {
     padding: 30px 20px 30px;
   }
   .contact h2 {
     left: 60px;
+  }
+
+  /* footer */
+  .footer-top {
+    padding-bottom: 50px;
+  }
+  .ft-top-text {
+    padding: 30px 10px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .footer-bottom-text {
+    padding: 30px 0;
+  }
+  .footer-bottom-text ul {
+    margin-top: 15px;
   }
 }
 
@@ -263,6 +280,23 @@
   .contact h2 {
     left: 165px;
   }
+
+  /* footer */
+  .footer-top {
+    padding-bottom: 50px;
+  }
+  .ft-top-text {
+    padding: 30px 80px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .footer-bottom-text {
+    padding: 30px 0;
+  }
+  .footer-bottom-text ul {
+    margin-top: 20px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -370,6 +404,20 @@
   .contact h2 {
     left: 250px;
   }
+
+  /* footer */
+  .ft-top-text {
+    padding: 40px 210px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .footer-bottom-text ul {
+    margin-top: 20px;
+  }
+  .footer-top {
+    padding-bottom: 80px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -438,6 +486,11 @@
   .contact h2 {
     left: 370px;
   }
+
+  /* footer */
+  .ft-top-text {
+    padding: 40px 50px;
+  }
 }
 /* Extra Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -471,6 +524,11 @@
   /* contact */
   .contact h2 {
     left: 450px;
+  }
+
+  /* footer */
+  .ft-top-text {
+    padding: 40px 70px;
   }
 }
 
